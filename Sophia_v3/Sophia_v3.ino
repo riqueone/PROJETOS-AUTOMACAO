@@ -29,10 +29,10 @@ const int perConex = 100;
 const int perVig = 30000;
 const unsigned long perData=300000; //5 minutos
 const byte pinLED = 2;
-const byte pinExt = 12;
-const byte pinCoz = 13;
+const byte pinExt = 5;
+const byte pinCoz = 12;
 const byte pinQua = 14;
-const byte pinBom = 15;
+const byte pinBom = 13;
 
 IPAddress ipESP(192,168,1,42);
 IPAddress ipRot(192,168,1,254);
